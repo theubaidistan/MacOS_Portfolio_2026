@@ -13,7 +13,7 @@ const Terminal = () => {
 
       <div className="techstack">
         <p>
-          <span className="font-bold">@m.ubaid %</span>
+          <span className="font-bold">Muhammad Ubaid </span>
           show tech stack
         </p>
 
