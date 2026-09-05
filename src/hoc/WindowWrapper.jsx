@@ -31,6 +31,10 @@ const WindowWrapper = (Component, windowKey) => {
       const el = ref.current;
       if (!el) return;
 
+      // Mobile windows are full-screen surfaces and should not be draggable.
+      // The desktop interaction remains unchanged.
+      if (window.matchMedia("(max-width: 767px)").matches) return;
+
       const [instance] = Draggable.create(el, {
         onPress: () => focusWindow(windowKey),
       });
