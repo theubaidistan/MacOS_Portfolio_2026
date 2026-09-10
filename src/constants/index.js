@@ -380,6 +380,58 @@ const WORK_LOCATION = {
         // },
       ],
     },
+    // ▶ Project 4
+    {
+      id: 8,
+      name: "Elephant Trax Website Application",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-20 left-80",
+      windowPosition: "top-[45vh] right-3",
+      children: [
+        {
+          id: 1,
+          name: "Elephant Trax Project.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "Simplified Home Inventory with QR Storage Labels. It helps users organize and manage household items efficiently using QR-coded storage boxes and containers.",
+            "Manage, search, and organize your home inventory with an intuitive interface designed to make finding stored items faster and easier.",
+            "Enhanced user experience with seamless item management, image uploads, and AI-powered keyword generation for better organization.",
+            "Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.",
+          ],
+        },
+        {
+          id: 2,
+          name: "ElephantTrax.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://elephant-trax.com/",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "Elephant Trax.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/project-5.png",
+        },
+        // {
+        //   id: 5,
+        //   name: "Design.fig",
+        //   icon: "/images/plain.png",
+        //   kind: "file",
+        //   fileType: "fig",
+        //   href: "https://google.com",
+        //   position: "top-60 right-20",
+        // },
+      ],
+    },
   ],
 };
 
