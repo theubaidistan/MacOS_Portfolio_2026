@@ -386,7 +386,7 @@ const WORK_LOCATION = {
       name: "Elephant Trax Website Application",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-20 left-80",
+      position: "top-40 left-80",
       windowPosition: "top-[45vh] right-3",
       children: [
         {
